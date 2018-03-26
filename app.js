@@ -24,6 +24,7 @@ hbs.registerHelper('message', (text) => {
 // 	response.render('maintenance.hbs')
 // });
 
+//i modified it
 app.get('/', (request, response) => {
 	// response.send('<h1>Hello Express!</h1>');
 	response.render('index.hbs', {
